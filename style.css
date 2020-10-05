@@ -391,7 +391,10 @@ a.contact-img {
     }
 
     img.projects-img {
-        height: 20%;
+        height: 100%;
+        width: 40px;
+        padding-top: 2px;
+        padding-bottom: 10px;
     }
 
     p.footer-content {
@@ -406,9 +409,9 @@ a.contact-img {
         max-height: 110px;
         overflow: hidden;
     }
-
-    div.news-text {
-        height: 90px;
+    
+    .news {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.637);
     }
 
     .footer-c {
