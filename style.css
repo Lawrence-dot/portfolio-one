@@ -58,7 +58,7 @@ a.nav-links {
 
 .img-col {
     height: 40px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .links-col {
@@ -453,6 +453,10 @@ a.contact-img {
 @media screen and (max-width: 500px){
     img.port-img{
         width: 100%;
+    }
+    
+    li.nav-item {
+        width: 55px;
     }
 
     .portimg-col{
