@@ -23,6 +23,7 @@ li {
 
 p {
     font-size: smaller;
+    text-align: justify;
 }
 /* a {
     margin-top: 5px;
@@ -176,7 +177,7 @@ button.show-more {
 }
 
 img.service-img {
-    max-height: 110px;
+    height: 100px;
 }
 
 img.radius {
@@ -243,18 +244,24 @@ p.offer-p {
     text-align: center;
 }
 
+p.section-p {
+    text-align: justify;
+    margin-bottom: 1px;
+}
+
 
 h3.section-head {
     color: rgb(87, 145, 212);
     font-size: 100%;
+    font-weight: 900;
 }
 
-p.section-p {
-    font-size: 1rem;
+.offer-sectioncol {
+    margin-bottom: 10px;
 }
 
 button.details {
-    background-color:  rgb(87, 145, 212);
+    background-color: rgb(87, 145, 212);
     color: white;
     height: 80%;
     font-size: 60%;
@@ -304,6 +311,7 @@ h3.footer-heading {
 
 p.footer-content {
     color: white;
+    text-align: unset;
 }
 
 .full-row {
@@ -324,21 +332,15 @@ h4.footer-formheading {
     color: rgb(87, 145, 212);
 }
 
-/* img.projects-img {
-    width: 100%;
-} */
-
 button.signup {
     background-color: rgb(87, 145, 212);
     color: white;
     position: relative;
     margin-top: 5px;
-    font-size: .5rem;
-    width: 70px;
-    /* max-height: 20px;
-    text-overflow: clip; */
-    padding: 5px;
     overflow: hidden;
+    width: 100%;
+    font-size: 50%;
+    padding: 10%;
 }
 
 i {
@@ -368,30 +370,16 @@ a.contact-img {
     margin-left: -20px;
  }
 
+ .footer-col {
+     margin-bottom: 15px;
+ }
+
 
 
 @media screen and (max-width: 718px){
-    img.service-img {
-        height: 50px;
-    }
-
-    p {
-        font-size: smaller;
-    }
-
     .head {
         width: 100px;
         top: -10px;
-    }
-
-    img.port-img {
-        height: 34%;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-
-    .sectioned-row p {
-        font-size: smaller;
     }
 
     p.testimonial-p {
@@ -406,13 +394,13 @@ a.contact-img {
         font-size: .9rem;
     }
 
-    .footer-row {
-        font-size: smaller;
-    }
-
-
     p.footer-content {
         margin-bottom: 1px;
+    }
+
+    p.footer-c {
+        margin-bottom: 10px;
+        margin-left: -15px;
     }
 
     a {
@@ -426,10 +414,6 @@ a.contact-img {
     
     .news {
         border-bottom: 1px solid rgba(255, 255, 255, 0.637);
-    }
-
-    .footer-c {
-        font-size: 50%;
     }
 
     button.signup {
@@ -453,7 +437,6 @@ a.contact-img {
    }
 
    .search-boxx {
-       margin-right: -15px;
        padding: 0px;
    }
 
@@ -483,11 +466,6 @@ a.contact-img {
     .nav-link{
         padding: .4rem .5rem;
     } 
-
-    .search-boxx {
-        padding-left: 15px;
-        padding-right: 0px;
-    }
 
     img.projects-img {
         width: 100%;
