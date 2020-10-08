@@ -23,7 +23,6 @@ li {
 
 p {
     font-size: smaller;
-    text-align: justify;
 }
 /* a {
     margin-top: 5px;
@@ -100,10 +99,6 @@ span.yellow-back {
     text-align: left;
 }
 
-/* input.search-boxx {
-    height: 1%;
-} */
-
 button.search-icon {
     background-color:rgba(255, 81, 0, 0.842);
     color: white;
@@ -165,7 +160,6 @@ h2.service-head {
 .portfolio-row {
     background-color: #010a11e1;
     padding: 1%;
-    /* opacity: .9; */
 }
 
 button.show-more {
@@ -218,7 +212,6 @@ h4.port-head {
 }
 
 img.port-img {
-    height: 50%;
     margin-top: 10px;
     margin-right: 10%;
 }
@@ -245,7 +238,7 @@ p.offer-p {
 }
 
 p.section-p {
-    text-align: justify;
+    text-align: unset;
     margin-bottom: 1px;
 }
 
@@ -436,11 +429,7 @@ a.contact-img {
         left: 40%;
    }
 
-   .search-boxx {
-       padding: 0px;
-   }
-
-} 
+}
 
 @media screen and (max-width: 745px){
     .head {
@@ -451,10 +440,6 @@ a.contact-img {
 } 
 
 @media screen and (max-width: 500px){
-    img.port-img{
-        width: 100%;
-    }
-    
     li.nav-item {
         width: 55px;
     }
