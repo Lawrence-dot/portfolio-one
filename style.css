@@ -363,6 +363,17 @@ a.contact-img {
 
     }
 
+    .nav-high .nav-link.active, .nav-pills .show >.nav-link {
+        color: #fff;
+        background-color: #007bff;
+        vertical-align: middle;
+        line-height: 1.6rem;
+        border-radius: 0px!important;
+        font-size: .5rem;
+        height: 100%;
+    }
+    
+
     .head {
         width: 100px;
         top: -10px;
