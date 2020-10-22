@@ -2,7 +2,6 @@
     width: 100%;
 }
 
-
 .nav-high {
     border-radius:  0px;
     display: flex;
@@ -10,6 +9,8 @@
     list-style: none;
     font-size: .4rem;
 }
+
+
 
 li {
     list-style: none;
@@ -63,7 +64,8 @@ a.navbar-toggler {
 }
 
 input.search-form {
-    height: 40%;
+    margin-top: 7px;
+    height: 50%;
     border: 0px;
     padding: 0px;
     background: transparent;
@@ -78,7 +80,7 @@ input.search-form {
 span.yellow-back {
     background-color:rgba(255, 81, 0, 0.849);
     color: white;
-    height: 45%; 
+    height: 60%; 
     margin-top: 10%;
     width: 90%;
     font-size: 1%;
@@ -88,22 +90,17 @@ span.yellow-back {
 button.search-icon {
     background-color:rgba(255, 81, 0, 0.842);
     color: white;
-    border-radius: 45%;
+    border-radius: 50%;
     margin-bottom: 10px;
-    padding: 1%;
+    padding: 2%;
 }
 
 .searchh {
     width: 10px;
 }
 
-.home-toprow {
-    margin-top: 0px;
-    /* background-image: url('utilities/10117-dark-street-clouds-building-748x468.jpg'); */
-}
-
-.carousel-inner {
-    max-height: 580px;
+.navbar-collapse {
+    margin-left: 0px!important;
 }
 
 .jumbotron {
@@ -111,10 +108,6 @@ button.search-icon {
     height: 100%;
     padding-top: 6rem;
     background: transparent;
-}
-
-.carousel-inner>img {
-    height: 10px;
 }
 
 button.learn-button {
@@ -162,15 +155,15 @@ button.show-more {
 }
 
 img.service-img {
-    height: 100px;
+    height: 100%;
+    max-height: 180px;
+    max-width: 190px;
+    min-width: 190px;
+    margin-bottom: 10px;
 }
 
 img.radius {
     border-radius: 50%;
-}
-
-img.service-cart {
-    margin-left:  -20px;
 }
 
 img.service-search {
@@ -178,7 +171,7 @@ img.service-search {
 }
 
 img.port-img {
-    max-height: 250px;
+    max-height: 220px;
 }
 
 h4.port-head {
@@ -256,6 +249,7 @@ h3.testimonial {
     font-weight: bolder;
 }
 
+
 p.testimonial-p {
     text-align: center;
     font-size: 1.3rem;
@@ -309,11 +303,14 @@ button.signup {
     background-color: rgb(87, 145, 212);
     color: white;
     position: relative;
+    left: 60%;
     margin-top: 5px;
     overflow: hidden;
-    width: 100%;
-    font-size: 50%;
-    padding: 10%;
+    width: 40%;
+    font-size: .8rem;
+    padding: .6rem;
+    max-height: .5rem;
+    line-height: 1px;
 }
 
 i {
@@ -352,7 +349,7 @@ a.contact-img {
 }
 
 .search-boxx {
-    max-width: 320px!important;
+    max-width: 325px!important;
 }
 
 /* For Medium Devices */
@@ -402,10 +399,22 @@ a.contact-img {
 
     button.signup {
         height: 20px;
-        width: 50px;
         line-height: 1px;
         font-size: .4rem;
+        position: relative;
+        left: 60%;
+    }
 
+    input.search-form {
+        margin-top: 10px;
+        height: 50%;
+        border: 0px;
+        padding: 0px;
+        background: transparent;
+    }
+
+    input.mail {
+        max-height: 1.1rem;
     }
 
     .contact-head {
@@ -419,22 +428,30 @@ a.contact-img {
     .head {
         left: 40%;
    }
+   .search-boxx {
+    max-width: 925px!important;
+}
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1020px){
+   
+}
+
+/* For Extra Small Devices */
+@media screen and (max-width: 612px){
     a {
         text-align: center;
         font-size: 100%;
-
+    }
+    
+    .carousel-caption h1 {
+        font-size: 1.6rem;
+        /* margin-top: 40px; */
     }
 
-    .portimg-col{
-        height: 320px;
+    .carousel-caption p {
+        font-size: small;
     }
-
-    .nav-link{
-        padding: .4rem .5rem;
-    } 
 
     img.projects-img {
         width: 100%;
