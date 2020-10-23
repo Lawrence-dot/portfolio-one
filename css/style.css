@@ -154,9 +154,9 @@ button.show-more {
 
 img.service-img {
     height: 100%;
-    max-height: 120px;
-    max-width: 120px;
-    min-width: 100px;
+    max-height: 110px;
+    max-width: 110px;
+    min-width: 110px;
     margin-bottom: 10px;
 }
 
