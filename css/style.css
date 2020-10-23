@@ -10,15 +10,13 @@
     font-size: .4rem;
 }
 
-
-
 li {
     list-style: none;
 }
 
 p {
     font-size: smaller;
-}
+} 
 /* a {
     margin-top: 5px;
 } */
@@ -156,8 +154,8 @@ button.show-more {
 
 img.service-img {
     height: 100%;
-    max-height: 140px;
-    max-width: 140px;
+    max-height: 120px;
+    max-width: 120px;
     min-width: 100px;
     margin-bottom: 10px;
 }
